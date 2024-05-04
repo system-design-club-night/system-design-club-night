@@ -15,13 +15,14 @@
  - 설계를 더 확장시킬 수 있는 질문을 1개 이상 준비해옵니다. 
    - 스터디 공유 시간 때, 이 질문에 대해 토론해 보고자 합니다. 
 
-### PR 양식
+### PR 제출 시, 포함되어야하는 내용
 * Requirements
   * Functional
   * Non-Functional
   * Estimates
 * Design
 * API 
+* Reference
 * Etc
   * 해당 기술이 활용되는 사례를 생각해봅니다. 
   * 참고하기 좋은 포스팅 사례를 찾아봅니다. 
