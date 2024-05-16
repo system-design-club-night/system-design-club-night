@@ -40,6 +40,15 @@
 
 
 ## Design
+
+### events
+* `payment-created` : 결제 정보가 생성됨
+* `purchase-confirmed` : 고객이 제품 구매를 확정함
+* `payment-transferred` : 결제 대금이 판매자에게 지급됨
+
+
+### diagram
+
 ![payment-gateway-design](./payment-gateway-design.png)
 
 
@@ -60,8 +69,9 @@
 * `transfer_succeed`: 대금지급 완료
 * `transfer_failed`: 대금지급 실패
 
-### 원장 서비스
+#### 원장 서비스
 * 여긴 잘 모르겠습니다..
+
 
 [질문]
 1. `card_info` 에는 보통 뭐가 들어가나요? 
