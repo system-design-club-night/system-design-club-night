@@ -40,7 +40,7 @@
 
 
 ## Design
-![payment-gateway-design](https://link.excalidraw.com/readonly/G24hG4Qw6Ud1e8pbWACE)
+![payment-gateway-design](./payment-gateway-design.png)
 
 
 [질문]
