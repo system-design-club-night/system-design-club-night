@@ -43,6 +43,26 @@
 ![payment-gateway-design](./payment-gateway-design.png)
 
 
+### states
+
+#### 결제처리 서비스
+* `created`: 결제 정보 생성
+* `waiting_for_psp`: 결제대행 대기
+* `psp_succeed`: 결제대행 성공
+* `psp_failed`: 결제대행 실패
+* `waiting_for_purchase_confirm`: 구매 확정 대기중
+* `purchase_confirmed`: 구매 확정
+* `completed`: 결제 종료
+
+
+#### 대금지급 서비스
+* `waiting_for_transfer`: 대금 지급 대기중
+* `transfer_succeed`: 대금지급 완료
+* `transfer_failed`: 대금지급 실패
+
+### 원장 서비스
+* 여긴 잘 모르겠습니다..
+
 [질문]
 1. `card_info` 에는 보통 뭐가 들어가나요? 
 2. 결제 처리 API request body 위/변조는 FE에서만 방지하나요? 
