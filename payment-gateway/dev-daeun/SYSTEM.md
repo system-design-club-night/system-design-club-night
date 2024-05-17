@@ -49,7 +49,7 @@
 
 ### diagram
 
-![payment-gateway-design](./payment-gateway-design.png)
+![payment-system-design](./system_design.png)
 
 
 ### states
