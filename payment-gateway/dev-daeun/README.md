@@ -53,3 +53,21 @@
 [질문]
 * `2. 결제 등록 요청` 단계에서 PSP 에게 왜 리다이렉션 URL 줘야 하는지?
 * PSP 레이턴시가 길어지면 자사 결제처리 서비스의 레이턴시에도 영향을 줄텐데, 사용자 ~ 자사 결제처리서비스 ~ PSP 간의 비동기 통신이 가능한지?
+
+
+
+
+-----
+
+
+## [Additional] Payment System
+
+
+### events
+* `payment-created` : 결제 정보가 생성됨
+* `purchase-confirmed` : 고객이 제품 구매를 확정함
+* `payment-transferred` : 결제 대금이 판매자에게 지급됨
+
+
+### diagram
+![payment-system-design](./payment-system-design.png)
