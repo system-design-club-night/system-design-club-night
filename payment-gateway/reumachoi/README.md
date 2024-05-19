@@ -45,7 +45,7 @@
      - DLQ로 이동된 메시지에 대해서도 클라이언트에 응답을 제공
      - DLQ 메시지 처리 자동화 처리나 기록 필요
 
-**정산**
+**정산(Batch)**
 
 - 트래픽 적은 시간대인 오전 6시에 수행하여 서비스 내 기록과 pg사 정산기록을 비교 및 업데이트 진행
 
@@ -73,6 +73,8 @@
 - AWS WAF를 통해 애플리케이션 보호
 - IAM, KMS를 통해 RDS, MSK 등 접근 시 인증/인가 및 암호화 진행
 
+## Reference
+
 ### 함께 논의하고 싶은 주제
 
 - 오픈뱅킹 점검시간에 결제는 어떻게 진행할까?
@@ -80,7 +82,7 @@
   - PG API 에러코드를 확인해서 응답하는 방식인지?
     - toss 에러코드([참조 링크](https://docs.tosspayments.com/reference/error-codes#결제-승인)): `NOT_AVAILABLE_BANK`
 
-## Reference
+### 참고하기 좋은 기술 사례
 
 [결제시스템 인프라 아키텍쳐 다이어그램-AWS](https://docs.aws.amazon.com/architecture-diagrams/latest/payment-system-interface-modernization/payment-system-interface-modernization.html)  
 [결제시스템에 대한 설명이 좋음](http://austincorso.com/2020/03/10/payments-system.html)
