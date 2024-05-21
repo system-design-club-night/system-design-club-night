@@ -28,7 +28,16 @@
   * 참고하기 좋은 포스팅 사례를 찾아봅니다. 
   * 함께 고민해보고 싶은 주제나 키워드를 생각해봅니다. 
 
-### 주제
+### 스터디 기록
 1. [payment-gateway](https://github.com/system-design-club-night/system-design-club-night/issues/2)
-2. [tinyurl-revisited](https://github.com/systemdesignfightclub/SDFC/tree/main/system-design/tinyurl-revisited)
+  - 결과모음집
+    - https://github.com/system-design-club-night/system-design-club-night/tree/main/payment-gateway  
+  - PR
+    - https://github.com/system-design-club-night/system-design-club-night/pull/10
+    - https://github.com/system-design-club-night/system-design-club-night/pull/9
+    - https://github.com/system-design-club-night/system-design-club-night/pull/6
+    - https://github.com/system-design-club-night/system-design-club-night/pull/5
+    - https://github.com/system-design-club-night/system-design-club-night/pull/4
 3. [digital-transaction](https://github.com/systemdesignfightclub/SDFC/tree/main/system-design/scheduled-digital-transaction)
+4. [tinyurl-revisited](https://github.com/system-design-club-night/system-design-club-night/issues/7)
+
