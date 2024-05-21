@@ -1,4 +1,5 @@
 # system-design-club-night
+## 스터디 
 ### 진행방법
 - 실제 시스템 디자인 인터뷰와 유사한 스타일로 스터디를 진행하고자 합니다. 
   - 발표자는 사전에 올린 PR을 바탕으로 설명을 합니다. 참석자는 중간중간 자유롭게 추가 질문을 합니다. 
@@ -28,16 +29,30 @@
   * 참고하기 좋은 포스팅 사례를 찾아봅니다. 
   * 함께 고민해보고 싶은 주제나 키워드를 생각해봅니다. 
 
-### 스터디 기록
-1. [payment-gateway](https://github.com/system-design-club-night/system-design-club-night/issues/2)
-  - 결과모음집
-    - https://github.com/system-design-club-night/system-design-club-night/tree/main/payment-gateway  
-  - PR
-    - https://github.com/system-design-club-night/system-design-club-night/pull/10
-    - https://github.com/system-design-club-night/system-design-club-night/pull/9
-    - https://github.com/system-design-club-night/system-design-club-night/pull/6
-    - https://github.com/system-design-club-night/system-design-club-night/pull/5
-    - https://github.com/system-design-club-night/system-design-club-night/pull/4
-3. [digital-transaction](https://github.com/systemdesignfightclub/SDFC/tree/main/system-design/scheduled-digital-transaction)
-4. [tinyurl-revisited](https://github.com/system-design-club-night/system-design-club-night/issues/7)
+## 스터디 기록
+### (1) payment-gateway
+#### 이슈: https://github.com/system-design-club-night/system-design-club-night/issues/2
+
+#### 결과: [system-design-club-night/tree/main/payment-gateway](https://github.com/system-design-club-night/system-design-club-night/tree/main/payment-gateway)
+
+#### PR 
+|dev-daeun|myeongjis|reumachoi|ssong22|cafelattezim|
+|------|---|---|---|---|
+|https://github.com/system-design-club-night/system-design-club-night/pull/10|https://github.com/system-design-club-night/system-design-club-night/pull/9|https://github.com/system-design-club-night/system-design-club-night/pull/6|https://github.com/system-design-club-night/system-design-club-night/pull/5|https://github.com/system-design-club-night/system-design-club-night/pull/4|
+
+### (2) digital-transaction
+#### 이슈: https://github.com/system-design-club-night/system-design-club-night/issues/8
+#### 결과: TBD
+#### PR 
+|dev-daeun|myeongjis|reumachoi|ssong22|cafelattezim|
+|------|---|---|---|---|
+|------|---|---|---|---|
+
+### (3) tinyurl
+#### 이슈: https://github.com/system-design-club-night/system-design-club-night/issues/7
+#### 결과: TBD
+#### PR 
+|dev-daeun|myeongjis|reumachoi|ssong22|cafelattezim|
+|------|---|---|---|---|
+|------|---|---|---|---|
 
