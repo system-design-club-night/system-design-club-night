@@ -23,11 +23,14 @@
 * 1분마다 실행되는 스케쥴러  
 
 ## Reference
+* [Design a Distributed Job Scheduler for Millions of Tasks in Daily Operations](https://medium.com/@mayilb77/design-a-distributed-job-scheduler-for-millions-of-tasks-in-daily-operations-4132dc6d645f)
 * [Cassandra vs. MongoDB](https://aws.amazon.com/ko/compare/the-difference-between-cassandra-and-mongodb/)
 
 ## 이어서 
 ### 함께 논의하고 싶은 주제 
-- 
-
+- 분산 스케쥴러가 필요한 실무 사례 
+- 재시도 잡보다 첫시도 잡 실행이 우선적으로 처리될 수 있게 하는 방법  
+ - retry용 kafka topic을 분리하기 
+ 
 ### 참고하기 좋은 기술 사례
 * 
