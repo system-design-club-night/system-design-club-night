@@ -30,29 +30,10 @@
   * 함께 고민해보고 싶은 주제나 키워드를 생각해봅니다. 
 
 ## 스터디 기록
-### (1) payment-gateway
-#### 이슈: https://github.com/system-design-club-night/system-design-club-night/issues/2
-
-#### 결과: [system-design-club-night/tree/main/payment-gateway](https://github.com/system-design-club-night/system-design-club-night/tree/main/payment-gateway)
-
-#### PR 
-|dev-daeun|myeongjis|reumachoi|ssong22|cafelattezim|
-|------|---|---|---|---|
-|https://github.com/system-design-club-night/system-design-club-night/pull/10|https://github.com/system-design-club-night/system-design-club-night/pull/9|https://github.com/system-design-club-night/system-design-club-night/pull/6|https://github.com/system-design-club-night/system-design-club-night/pull/5|https://github.com/system-design-club-night/system-design-club-night/pull/4|
-
-### (2) digital-transaction
-#### 이슈: https://github.com/system-design-club-night/system-design-club-night/issues/8
-#### 결과: TBD
-#### PR 
-|dev-daeun|myeongjis|reumachoi|ssong22|cafelattezim|
-|------|---|---|---|---|
-|------|---|---|---|---|
-
-### (3) tinyurl
-#### 이슈: https://github.com/system-design-club-night/system-design-club-night/issues/7
-#### 결과: TBD
-#### PR 
-|dev-daeun|myeongjis|reumachoi|ssong22|cafelattezim|
-|------|---|---|---|---|
-|------|---|---|---|---|
-
+| |[payment-gateway](https://github.com/system-design-club-night/system-design-club-night/tree/main/payment-gateway)|[scheduled-digital-transaction](https://github.com/system-design-club-night/system-design-club-night/issues/8)|[tinyurl](https://github.com/system-design-club-night/system-design-club-night/issues/7)|
+|------|---|---|---|
+|dev-daeun|https://github.com/system-design-club-night/system-design-club-night/pull/10|TBD|TBD|
+|myeongjis|https://github.com/system-design-club-night/system-design-club-night/pull/9|TBD|TBD|
+|reumachoi|https://github.com/system-design-club-night/system-design-club-night/pull/6|TBD|TBD|
+|ssong22|https://github.com/system-design-club-night/system-design-club-night/pull/5|TBD|TBD|
+|cafelattezim|https://github.com/system-design-club-night/system-design-club-night/pull/4|TBD|TBD|
