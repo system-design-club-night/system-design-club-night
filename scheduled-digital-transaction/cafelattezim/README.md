@@ -33,7 +33,7 @@
 
 ### JOB 도메인
 ##### 1. JOB 등록 API  
- * 반복실행 JOB인 경우,  
+ * 반복실행 JOB인 경우, 현재 시각에서 `반복실행주기`를 더한 값을 `task_schedule.next_execution_time`에 저장한다. 
 ##### 2. JOB 상태 변경 API
  * `task_execution_history` 테이블의 상태를 변경한다. 
  * 만약 `FAILED`이고, `max_retry_count`가 남아있는 경우, retry topic에 kafka 이벤트를 발행한다.
