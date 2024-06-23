@@ -3,7 +3,7 @@
   * url을 클릭하면, 원본 페이지로 이동한다.
   
 ## Design
-<img src="tiny-url-1.png">
+<img src="tinyurl-1.png">
 
 ## API
 ### request
