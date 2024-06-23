@@ -56,22 +56,25 @@ Location: https://some-commerce-system.com/some-queryparam-very-long?=blahblahbl
 
 
 ## Design
-* https://systemdesign.one/url-shortening-system-design/ 
-
+https://broadleaf-hubcap-b1d.notion.site/shortening-url-8c0af7edbb2e4b5db6c3d9ffaca94385?pvs=4
 
 
 ## 논의하고 싶은 주제
 * shortened url 은 상태코드 몇 번으로 응답하는 게 적절한가? (30x 상태코드들의 각 용도)
   * 레이턴시 줄이기 vs 단축 url 방문자 분석하기 
-* 해시 충돌을 방지하려면 어떻게 해야 할까?
+* 해싱 충돌을 방지하기 위해 보통 어떤 방법을 사용하시나요? 
 
 
 
 ## 참고하기 좋은 기술 사례
 * [BloomFilter는 언제 쓰나요?](https://meetup.nhncloud.com/posts/192)
+* [자바의 HashMap 은 어떻게 동작하는가?](https://d2.naver.com/helloworld/831311)
 
 ## 기타 레퍼런스
 * [레이턴시 추산할 때 참고 할 만한 레퍼런스](https://gist.github.com/jboner/2841832)
 * [Redirections in HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Redirections)
 * [Which redirection code should I use for short url](https://linkila.com/blog/301-vs-302-vs-303-vs-307-vs-308-whic-redirection-code-should-i-use-for-short-urls/)
-
+* [URL shortening system design](https://systemdesign.one/url-shortening-system-design/)
+* [bloom filter](https://systemdesign.one/bloom-filters-explained/)
+* [consistent hashing](https://binux.tistory.com/119)
+* [Implementing bloom filters in Redis](https://aws.amazon.com/ko/blogs/database/powering-recommendation-models-using-amazon-elasticache-for-redis-at-coffee-meets-bagel/)
