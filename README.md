@@ -32,8 +32,8 @@
 ## 스터디 기록
 | |[payment-gateway](https://github.com/system-design-club-night/system-design-club-night/tree/main/payment-gateway)|[scheduled-digital-transaction](https://github.com/system-design-club-night/system-design-club-night/issues/8)|[tinyurl](https://github.com/system-design-club-night/system-design-club-night/issues/7)|
 |------|---|---|---|
-|dev-daeun|https://github.com/system-design-club-night/system-design-club-night/pull/10|👩🏻‍💻🏢|TBD|
-|myeongjis|https://github.com/system-design-club-night/system-design-club-night/pull/9|👩🏻‍💻🏢|TBD|
-|reumachoi|https://github.com/system-design-club-night/system-design-club-night/pull/6|https://github.com/system-design-club-night/system-design-club-night/pull/12|TBD|
-|ssong22|https://github.com/system-design-club-night/system-design-club-night/pull/5|https://github.com/system-design-club-night/system-design-club-night/pull/13|TBD|
-|cafelattezim|https://github.com/system-design-club-night/system-design-club-night/pull/4|https://github.com/system-design-club-night/system-design-club-night/pull/11|TBD|
+|dev-daeun|https://github.com/system-design-club-night/system-design-club-night/pull/10|👩🏻‍💻🏢|https://github.com/system-design-club-night/system-design-club-night/pull/18|
+|myeongjis|https://github.com/system-design-club-night/system-design-club-night/pull/9|👩🏻‍💻🏢|https://github.com/system-design-club-night/system-design-club-night/pull/14|
+|reumachoi|https://github.com/system-design-club-night/system-design-club-night/pull/6|https://github.com/system-design-club-night/system-design-club-night/pull/12|https://github.com/system-design-club-night/system-design-club-night/pull/19|
+|ssong22|https://github.com/system-design-club-night/system-design-club-night/pull/5|https://github.com/system-design-club-night/system-design-club-night/pull/13|https://github.com/system-design-club-night/system-design-club-night/pull/15|
+|cafelattezim|https://github.com/system-design-club-night/system-design-club-night/pull/4|https://github.com/system-design-club-night/system-design-club-night/pull/11|https://github.com/system-design-club-night/system-design-club-night/pull/17|
