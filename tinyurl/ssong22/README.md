@@ -45,4 +45,4 @@
 * 사이트 검증에 대한 방법 🤔
 
 ### 참고하기 좋은 기술 사례
-* [base64](https://developer.mozilla.org/ko/docs/Glossary/Base64)
+* [base62](https://microsoft.github.io/makecode-csp/unit-6/day-14/base63-url-shorteners)
