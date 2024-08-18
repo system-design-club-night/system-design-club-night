@@ -63,6 +63,10 @@
 * Glue를 활용한 데이터 파이프라인 모니터링
   * Amazon EventBridge -> Amazon SNS 이벤트 발행 -> CloudWatch에서 구독 + 임계치 이상 발생 시 -> 슬랙 알럿 
 
+### 유사한 시스템 설계 사례 
+* 통계 데이터 
+  * 광고: 광고주 통계 보고서
+  * 커머스: 판매자 주문 통계 등등..
 ### 참고하기 좋은 기술 사례
 * [AWS 기술블로그: CJ 올리브영의 서버리스 랭킹 시스템 구축기](https://aws.amazon.com/ko/blogs/tech/oliveyoung-serverless-ranking-system/)
 * [CJ 올리브영 기술블로그: 랭킹 시스템 개편기](https://oliveyoung.tech/blog/2023-11-07/ranking-system/)
