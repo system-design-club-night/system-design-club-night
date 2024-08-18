@@ -10,7 +10,7 @@
 
 ## Non-Functional Requirements
 * 주문 데이터가 급증하는 세일기간에도 처리 속도가 지연되면 안된다.   
- * AWS Glue 병렬화 수준 조정을 통해 해결할 수 있다. 
+   * AWS Glue 병렬화 수준 조정을 통해 해결할 수 있다. 
 
 ## Estimates
 * TBD 
