@@ -64,5 +64,6 @@
   * Amazon EventBridge -> Amazon SNS 이벤트 발행 -> CloudWatch에서 구독 + 임계치 이상 발생 시 -> 슬랙 알럿 
 
 ### 참고하기 좋은 기술 사례
-* [CJ 올리브영의 서버리스 랭킹 시스템 구축기](https://aws.amazon.com/ko/blogs/tech/oliveyoung-serverless-ranking-system/) 
+* [AWS 기술블로그: CJ 올리브영의 서버리스 랭킹 시스템 구축기](https://aws.amazon.com/ko/blogs/tech/oliveyoung-serverless-ranking-system/)
+* [CJ 올리브영 기술블로그: 랭킹 시스템 개편기](https://oliveyoung.tech/blog/2023-11-07/ranking-system/)
 
