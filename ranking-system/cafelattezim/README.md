@@ -24,6 +24,7 @@
 <img width=500 src="https://github.com/user-attachments/assets/06ecb7bf-b65a-4aae-8a6b-ac2b246d69f0">
 
 ### 파이프라인 
+<img width=500 src="https://oliveyoung.tech/static/a64a98776ce8d00eff922f63416a6cdf/d0fcb/result-zzal.png"> 
 <img width=400 src="https://github.com/user-attachments/assets/2d705c75-b33f-4b05-a598-2db6eae0e0c9">
 
 ### 특이사항
