@@ -42,7 +42,7 @@
   > - date
   > - customer_gender
   > - customer_ages
-- Kinesis Firehose에서 S3에 적재시 `category/YYYY-MM-DD-{N}H` 파티셔닝
+- Kinesis Firehose에서 S3에 적재시 `category/YYYY/MM/DD/HH` 파티셔닝
 
 1. Redis
 
