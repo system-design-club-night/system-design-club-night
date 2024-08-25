@@ -1,0 +1,33 @@
+graph TD
+    A[Order Service] -->|Real-time data| B[AWS Kinesis Data Streams]
+    B -->|Near real-time| C[AWS Kinesis Firehose]
+    C -->|Batch write| D[Amazon S3]
+    D -->|Partitioned data| E[AWS Glue]
+    E -->|Catalog| F[Amazon Athena]
+    F -->|Query results| G[Lambda Function]
+    G -->|Update rankings| H[Redis]
+    G -->|Log updates| I[CloudWatch Logs]
+    I -->|Scheduled export| J[S3 Archive]
+    K[API Gateway] -->|Ranking requests| L[Application Server]
+    L -->|Read rankings| H
+    M[EventBridge] -->|Trigger hourly/daily| G
+    N[SNS] -->|Alerts| O[Operations Team]
+    G -.->|Failure notifications| N
+    subgraph "Data Storage & Processing"
+        D
+        E
+        F
+    end
+    subgraph "Ranking Management"
+        G
+        H
+        I
+    end
+    subgraph "API Layer"
+        K
+        L
+    end
+    subgraph "Monitoring & Alerting"
+        M
+        N
+    end
