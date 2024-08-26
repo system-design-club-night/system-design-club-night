@@ -12,9 +12,11 @@
 <img src="ranking-system.png">
 
 ### Batch: aws Glue 
-* 병렬 데이터 수집
-### Event 기반
-* EventBridge
+* 병렬 데이터 수집 -> 처리 성능 up
+### S3
+* 메타 데이터 저장
+### Athena
+* 다양한 비지니스 요구사항에 맞는 query 수행 -> 기능 확장성
 
 ## Reference
 
