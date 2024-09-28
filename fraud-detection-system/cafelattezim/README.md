@@ -17,9 +17,10 @@
   * 🤫
   
 ## Design
-<img width=500 src="/fraud-detection-system/cafelattezim/FEATURE_STORE_데이터_파이프라인.png">
+<img width=900 src="/fraud-detection-system/cafelattezim/FEATURE_STORE_데이터_파이프라인.png">
 
 ## 개념정리
+### FDS와 AML의 차이 
 |-|  FDS (Fraud Detection System) |  AML (Anti-Money Laundering) |
 |---|---|---|
 |요약|이상거래탐지|자금세탁방지|
@@ -29,14 +30,15 @@
 |사례|신용카드 사기, 계정 탈취, 신원 도용 등 즉각적인 금융 사기|복잡한 자금 세탁 구조, 탈세 등 더 복잡하고 은밀한 금융 범죄| 
 |대응|의심스러운 거래를 즉시 차단하거나 추가 인증을 요구|의심스러운 활동을 모니터링하고 보고하며, 필요시 관계 당국에 신고|
 
-* gridgain
-  * GridGain은 분산 컴퓨팅 및 인메모리 컴퓨팅 플랫폼
-* feature store
-  * 머신러닝 모델에 사용되는 특징(feature)들을 저장, 관리, 제공하는 중앙 집중식 플랫폼
-  * 참고: 
-    * [ML의 Feature Store이란?](https://zzsza.github.io/mlops/2020/02/02/feature-store/) 
-* Apache Flink
-  * 샘플 코드: [Apache Flink Docs: Fraud Detection with the DataStream API](https://nightlies.apache.org/flink/flink-docs-release-1.20/docs/try-flink/datastream/)
-* DJL: Deep Java Library
-  * 참고: [DJL: Deep Java Library](https://docs.djl.ai/master/index.html)
+###  gridgain
+* GridGain은 분산 컴퓨팅 및 인메모리 컴퓨팅 플랫폼
+
+### feature store
+* 머신러닝 모델에 사용되는 특징(feature)들을 저장, 관리, 제공하는 중앙 집중식 플랫폼
+* 참고: 
+  * [ML의 Feature Store이란?](https://zzsza.github.io/mlops/2020/02/02/feature-store/) 
+### Apache Flink
+* FDS 사례 샘플 코드: [Apache Flink Docs: Fraud Detection with the DataStream API](https://nightlies.apache.org/flink/flink-docs-release-1.20/docs/try-flink/datastream/)
+### DJL: Deep Java Library
+* 참고: [DJL: Deep Java Library](https://docs.djl.ai/master/index.html)
   
