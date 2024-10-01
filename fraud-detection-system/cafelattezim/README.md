@@ -40,6 +40,7 @@
 ### Apache Flink
 * FDS 사례 샘플 코드: [Apache Flink Docs: Fraud Detection with the DataStream API](https://nightlies.apache.org/flink/flink-docs-release-1.20/docs/try-flink/datastream/)
 * [Flink 외 스트리밍 플랫폼 비교(https://carpe08.tistory.com/360)
+* [Flink와 SQL](https://nightlies.apache.org/flink/flink-docs-release-1.20/docs/dev/table/sql/overview/)
 ### DJL: Deep Java Library
 * 참고: [DJL: Deep Java Library](https://docs.djl.ai/master/index.html)
 
