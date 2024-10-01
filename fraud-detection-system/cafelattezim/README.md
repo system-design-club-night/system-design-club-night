@@ -1,3 +1,5 @@
+> [카카오뱅크: 킁킁!킁! 어디서 사기 냄새 안나요? : FDS 시스템에 AI 적용하기](https://tech.kakaobank.com/posts/2310-applying-ai-into-fds-system/)을 읽고, FDS 설계를 고민해보자. 
+
 ## Requirements
   ### Functional
   * 신규 사기 유형에 유연하게 대응할 수 있어야한다.
@@ -37,13 +39,22 @@
 * 머신러닝 모델에 사용되는 특징(feature)들을 저장, 관리, 제공하는 중앙 집중식 플랫폼
 * 참고: 
   * [ML의 Feature Store이란?](https://zzsza.github.io/mlops/2020/02/02/feature-store/) 
-### Apache Flink
+
+### 스트리밍 플랫폼 
+#### Apache Flink
 * FDS 사례 샘플 코드: [Apache Flink Docs: Fraud Detection with the DataStream API](https://nightlies.apache.org/flink/flink-docs-release-1.20/docs/try-flink/datastream/)
-* [Flink 외 스트리밍 플랫폼 비교(https://carpe08.tistory.com/360)
+* [Flink 외 스트리밍 플랫폼 비교](https://carpe08.tistory.com/360)
 * [Flink와 SQL](https://nightlies.apache.org/flink/flink-docs-release-1.20/docs/dev/table/sql/overview/)
+
+#### Kafka Streams 
+* [무신사: Kafka Streams를 활용한 실시간 이상 로그인 감지 시스템 도입하기](https://medium.com/musinsa-tech/허튼짓은-그만-kafka-streams를-활용한-실시간-이상-로그인-감지-시스템-도입하기-d05768b78c86)
+
+#### Kafka KsqlDB 
+* [토스: 토스 ksqlDB를 활용한 증권사의 실시간 데이터 처리하기](https://toss.tech/article/ksqldb-realtime-data)
+* [KSQL (KsqlDB)](https://always-kimkim.tistory.com/entry/kafka101-ksql)
+
 ### DJL: Deep Java Library
 * 참고: [DJL: Deep Java Library](https://docs.djl.ai/master/index.html)
 
-## 참고
-* [카카오뱅크: 킁킁!킁! 어디서 사기 냄새 안나요? : FDS 시스템에 AI 적용하기](https://tech.kakaobank.com/posts/2310-applying-ai-into-fds-system/)
-* [토스: 토스 ksqlDB를 활용한 증권사의 실시간 데이터 처리하기](https://toss.tech/article/ksqldb-realtime-data)
+
+
