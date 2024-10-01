@@ -39,8 +39,10 @@
   * [ML의 Feature Store이란?](https://zzsza.github.io/mlops/2020/02/02/feature-store/) 
 ### Apache Flink
 * FDS 사례 샘플 코드: [Apache Flink Docs: Fraud Detection with the DataStream API](https://nightlies.apache.org/flink/flink-docs-release-1.20/docs/try-flink/datastream/)
+* [Flink 외 스트리밍 플랫폼 비교(https://carpe08.tistory.com/360)
 ### DJL: Deep Java Library
 * 참고: [DJL: Deep Java Library](https://docs.djl.ai/master/index.html)
 
 ## 참고
-[킁킁!킁! 어디서 사기 냄새 안나요? : FDS 시스템에 AI 적용하기](https://tech.kakaobank.com/posts/2310-applying-ai-into-fds-system/)
+* [카카오뱅크: 킁킁!킁! 어디서 사기 냄새 안나요? : FDS 시스템에 AI 적용하기](https://tech.kakaobank.com/posts/2310-applying-ai-into-fds-system/)
+* [토스: 토스 ksqlDB를 활용한 증권사의 실시간 데이터 처리하기](https://toss.tech/article/ksqldb-realtime-data)
