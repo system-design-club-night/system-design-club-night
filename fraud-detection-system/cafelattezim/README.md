@@ -49,7 +49,9 @@
 #### Kafka Streams 
 * [무신사: Kafka Streams를 활용한 실시간 이상 로그인 감지 시스템 도입하기](https://medium.com/musinsa-tech/허튼짓은-그만-kafka-streams를-활용한-실시간-이상-로그인-감지-시스템-도입하기-d05768b78c86)
 
-#### Kafka KsqlDB 
+#### Kafka KsqlDB
+* <img width=400 src="https://github.com/user-attachments/assets/a318f85d-d197-48fc-93fa-df03fb2b4791">)
+* [ksqldb]https://docs.ksqldb.io/en/latest/operate-and-deploy/how-it-works/
 * [토스: 토스 ksqlDB를 활용한 증권사의 실시간 데이터 처리하기](https://toss.tech/article/ksqldb-realtime-data)
 * [KSQL (KsqlDB)](https://always-kimkim.tistory.com/entry/kafka101-ksql)
 
