@@ -21,6 +21,105 @@
 ## Design
 <img width=900 src="/fraud-detection-system/cafelattezim/FEATURE_STORE_데이터_파이프라인.png">
 
+#### 상세 구현 예시 
+> 
+1. 머신러닝 모델 만들기:
+   - Python을 사용하여 모델을 만든다. (예: scikit-learn 또는 TensorFlow/Keras 사용).
+   - 데이터를 준비하고, 모델을 훈련시킨다. 
+   - 모델을 저장한다. (예: pickle 형식).
+
+2. Spring 프로젝트 설정:
+   - Spring Boot 프로젝트를 생성한다.
+   - DJL 의존성을 추가합니다 (build.gradle).
+
+3. 모델 로딩:
+   - Spring 애플리케이션에서 DJL을 사용하여 저장된 모델을 로드한다.
+
+4. 예측 서비스 구현:
+   - 모델을 사용하여 예측을 수행하는 서비스 클래스를 만든다.
+
+5. REST API 구현:
+   - 예측 서비스를 호출하는 컨트롤러를 만든다.
+
+##### 예시 코드
+
+1. 의존성 추가 (build.gradle):
+
+```gradle
+dependencies {
+    implementation 'ai.djl:api:0.20.0'
+    implementation 'ai.djl.pytorch:pytorch-engine:0.20.0'
+    implementation 'redis.clients:jedis:4.3.1'
+}
+```
+
+2. 모델 로딩 및 예측 서비스:
+
+```java
+import ai.djl.inference.Predictor;
+import ai.djl.ndarray.NDList;
+import ai.djl.repository.zoo.Criteria;
+import ai.djl.repository.zoo.ZooModel;
+import org.springframework.stereotype.Service;
+import redis.clients.jedis.Jedis;
+
+@Service
+public class FdsPredictionService {
+    private final Jedis jedis;
+
+    public PredictionService() {
+        this.jedis = new Jedis("localhost", 6379); // Redis 연결
+    }
+
+    public FdsPredictionResponse predict(FdsPredictionRequest request) throws Exception {
+        try {
+            // Reids Cache에 저장된 Feature Store으로 모델 계산 
+            String key = String.format("KYE:CSSTNO:%s:XFEPE_X", request.getUserId());
+            String modelPath = jedis.get(key);
+            
+            Criteria<NDList, NDList> criteria = Criteria.builder()
+                    .setTypes(NDList.class, NDList.class)
+                    .optModelPath(modelPath)
+                    .build();
+
+            ZooModel<NDList, NDList> model = criteria.loadModel();
+            this.predictor = model.newPredictor();
+        } catch (Exception e) {
+            throw new RuntimeException("모델 로딩 실패", e);
+        }
+        ..
+
+        // request으로 input 재가공
+        NDList prediction = predictor.predict(input);
+        ...
+        // 예측 데이터로 응답 매핑 
+        return fdsPredictionResponse;
+    }
+}
+```
+
+3. REST API 컨트롤러:
+
+```java
+import org.springframework.web.bind.annotation.*;
+
+@RestController
+@RequestMapping("/api/fds/")
+@RequiredArgsConstructor
+public class FdsPredictionController {
+    private final FdsPredictionService fdsPredictionService;
+
+    @PostMapping("predict")
+    public FdsPredictionResponse predict(@RequestBody FdsPredictionRequest request) throws Exception {
+        return fdsPredictionAppService.predict(request);
+    }
+}
+```
+
+- `PredictionService`가 애플리케이션 시작 시 모델을 로드한다.
+- `predict` 메서드를 통해 입력을 받아 예측을 수행한다.
+- `PredictionController`는 REST API 엔드포인트를 제공하여 클라이언트가 예측을 요청할 수 있게 한다. 
+
 ## 개념정리
 ### FDS와 AML의 차이 
 |-|  FDS (Fraud Detection System) |  AML (Anti-Money Laundering) |
@@ -56,7 +155,10 @@
 * [KSQL (KsqlDB)](https://always-kimkim.tistory.com/entry/kafka101-ksql)
 
 ### DJL: Deep Java Library
+* AWS에서는 Java로 딥 러닝 모델을 개발하기 위한 오픈 소스 라이브러리
 * 참고: [DJL: Deep Java Library](https://docs.djl.ai/master/index.html)
+
+
 
 
 
