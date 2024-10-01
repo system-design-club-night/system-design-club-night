@@ -73,7 +73,7 @@ public class FdsPredictionService {
 
     public FdsPredictionResponse predict(FdsPredictionRequest request) throws Exception {
         try {
-            // Reids Cache에 저장된 Feature Store으로 모델 계산 
+            // Reids Cache에 저장된 Feature Store으로 모델 로딩
             String key = String.format("KYE:CSSTNO:%s:XFEPE_X", request.getUserId());
             String modelPath = jedis.get(key);
             
@@ -89,7 +89,7 @@ public class FdsPredictionService {
         }
         ..
 
-        // request으로 input 재가공
+        // request으로 input 데이터 생성 후, 예측 
         NDList prediction = predictor.predict(input);
         ...
         // 예측 데이터로 응답 매핑 
