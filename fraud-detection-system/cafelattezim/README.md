@@ -41,4 +41,6 @@
 * FDS 사례 샘플 코드: [Apache Flink Docs: Fraud Detection with the DataStream API](https://nightlies.apache.org/flink/flink-docs-release-1.20/docs/try-flink/datastream/)
 ### DJL: Deep Java Library
 * 참고: [DJL: Deep Java Library](https://docs.djl.ai/master/index.html)
-  
+
+## 참고
+[킁킁!킁! 어디서 사기 냄새 안나요? : FDS 시스템에 AI 적용하기](https://tech.kakaobank.com/posts/2310-applying-ai-into-fds-system/)
