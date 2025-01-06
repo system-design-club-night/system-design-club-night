@@ -17,7 +17,7 @@
 
 - 보안
   - 권한이 없는 사용자는 콘텐츠 생성, 접근, 검색이 불가능해야 한다.
-  - 모든 데이터는 전송 시 HTTPS, 저장 시 AES-256 방식으로 암호화되어야 한다.
+  - 모든 데이터는 전송 시 HTTPS, 저장 시 AES-128 방식으로 암호화되어야 한다.
 - 성능 및 확장성
   - 동시 사용자 1,000명 이상 처리가 가능해야 한다.
   - 사용량 증가에 따라 확장 가능한 구조를 가져야 한다.
@@ -27,6 +27,19 @@
 ## Estimates
 
 ## Design
+
+### 콘텐츠 암호화 및 패키징
+
+- DRM 시스템으로 유명한 Widevine 및 FairPlay 에서도 'AES-128' 암호화 방식을 사용
+- 안전한 키 교환 프로토콜: 인증 토큰 및 서명된 URL
+
+장치/브라우저 콘텐츠 복호화 모듈(CDM) <-> License Server +사이에서 중개 및 통신담당 EME API
+
+1. CDM
+   - 디지털 콘텐츠의 복호화를 처리하는 모듈 [관련글](https://wormwlrm.github.io/2023/03/05/DRM-Contents-on-Web.html)
+2. License Server
+   - 콘텐츠 암호화에 사용한 키를 관리함
+3. EME API
 
 ### DataBase
 
@@ -59,5 +72,6 @@
 
 ### 참고하기 좋은 기술 사례
 
+[AES 암호화 관련](https://www.vdocipher.com/blog/2020/11/aes-128-encryption-video-drm-secure/)  
 https://www.dlib.org/dlib/june01/iannella/06iannella.html
 https://medium.com/@hedhav.haresh/breaking-down-drm-and-its-implications-d8c4d2d6c51f
